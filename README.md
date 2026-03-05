@@ -13,4 +13,7 @@ Tools to test signal processing.
 . bin/signaler.sh
 ```
 
-# sigmon
+## Grab the pid from the running process.
+```console
+ps aux | grep python | grep [s]igmon
+```
